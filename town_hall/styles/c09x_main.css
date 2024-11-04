@@ -196,7 +196,13 @@ footer p {
     main { flex-direction: column; }
 	section {
 	    order: 1;
+		width: 95%;}
+	
+	aside {
+	    order: 2;
+		padding-right: 2.5%;
 		width: 95%;
+	}
 	
 	article img { max-width: 30%; }
 	#speakers {
