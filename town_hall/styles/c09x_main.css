@@ -141,24 +141,12 @@ article img {
 }
 
 /* the styles for the aside */
-aside {
-    flex-basis: 30%;
-    order: 1;
-	padding: 0 0 20px 2.5%;
-}
-aside h2 {
-	color: #800000;
-	font-size: 130%;
-	padding: .5em 0 .25em 0;
-}
 
-aside h3 {
-	font-size: 105%;
-	padding-bottom: .25em;
-}
-aside img {
-	padding-bottom: 1em;
-}
+aside {
+	    order: 2;
+		padding-right: 2.5%;
+		width: 95%;
+	}
 
 /* the styles for the footer */
 footer {
@@ -198,12 +186,26 @@ footer p {
 	    order: 1;
 		width: 95%;}
 	
-	aside {
-	    order: 2;
-		padding-right: 2.5%;
-		width: 95%;
-	}
-	
+	/* the styles for the aside */
+aside {
+    flex-basis: 30%;
+    order: 1;
+	padding: 0 0 20px 2.5%;
+}
+aside h2 {
+	color: #800000;
+	font-size: 130%;
+	padding: .5em 0 .25em 0;
+}
+
+aside h3 {
+	font-size: 105%;
+	padding-bottom: .25em;
+}
+aside img {
+	padding-bottom: 1em;
+}
+
 	article img { max-width: 30%; }
 	#speakers {
 		column-count: 2;
