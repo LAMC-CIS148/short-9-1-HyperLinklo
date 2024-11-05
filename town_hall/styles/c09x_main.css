@@ -196,7 +196,7 @@ footer p {
     header h2, header h3 { flex-basis: 100%; }
     main { flex-direction: column; }
 	section {
-	    order: 1;
+	    order: 2;
 		width: 95%;}
 	
 aside {
